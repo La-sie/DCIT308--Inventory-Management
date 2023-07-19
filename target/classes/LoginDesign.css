@@ -1,0 +1,48 @@
+.left-form{
+    -fx-background-color: linear-gradient(to bottom right, #25d74f, #11b0e1);
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px 0px;
+}
+
+.right-form {
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px 0px;
+}
+
+.close {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.close:hover{
+    -fx-background-color: #f4a03f;
+}
+
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #fff4ee, #eee);
+    -fx-background-radius: 4px;
+    -fx-border-color: #000;
+    -fx-border-radius: 4px;
+    -fx-border-width:.4px;
+    -fx-font-size: 13px;
+    -fx-font-family: "Tahoma";
+}
+
+.textfield:focused{
+    -fx-background-color: #fff;
+    -fx-border-color: linear-gradient(to bottom right, #60d725, #1179e1);
+    -fx-border-width:.8px;
+}
+
+.login-btn{
+    -fx-background-color:  linear-gradient(to bottom, #20c0a8, #008858);
+    -fx-background-radius: 4px;
+    -fx-text-fill: #fff;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+}
+
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to bottom, #87f1ac, #55e5ba);
+}
